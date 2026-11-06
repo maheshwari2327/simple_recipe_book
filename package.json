@@ -1,0 +1,32 @@
+{
+  "name": "recipe-book",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node scripts/seed-cli.js"
+  },
+  "dependencies": {
+    "lucide-react": "0.453.0",
+    "mongodb": "6.10.0",
+    "next": "14.2.15",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.47",
+    "tailwindcss": "3.4.14"
+  },
+  "description": "A full-stack Indian Recipe Book web application built with **Next.js (App Router)**, **Tailwind CSS**, **Next.js Route Handlers**, and the **official MongoDB driver**.",
+  "main": "postcss.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
